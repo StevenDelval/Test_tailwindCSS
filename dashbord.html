@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Dashboard</title>
+</head>
+
+<body class="h-screen bg-gray-50 flex flex-col">
+
+    <header class="ml-8 ">
+        <h1>Bienvenue !</h1>
+
+
+
+    </header>
+    <section class="border border-gray-800 rounded-2xl p-4 mt-12 w-3/5 self-center">
+        <h2 class="mb-8 ">Chapitre :</h2>
+        <p class="text-justify border-b border-gray-600 pb-2">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita ab earum officia ipsa optio
+            asperiores quis minus laboriosam atque, maxime eius impedit a sunt dolorem nihil. Voluptatum quia soluta
+            rem voluptate magnam illo aperiam? Ipsa unde sapiente minus non magnam saepe dolorem, iure modi
+            voluptates, velit inventore dolores assumenda blanditiis?
+        </p>
+        <p class="my-4">Posté par : Welcome | <time datetime="2022-07-10T15:51:29.36">2022-07-10
+                15:51:29.368852</time> </p>
+        <p class="text-justify">Bienvenue sur l'histoire collaborative !
+
+            Vous pouvez écrire un paragraphe a la fois,
+            ensuite vous devez attendre qu'un autre utilisateur
+            ecrit un paragraphe.
+            Ajoutez des personnages lorsque vous ecrivez votre paragraphe.
+            Vous pouvez votez pour supprimer un paragraphe.
+            Vous pouvez lire l'histoire depuis le debut.
+        </p>
+    </section>
+
+    <form method="get"
+        class="mt-8 self-center flex flex-col justify-between border border-gray-800 rounded-2xl py-2 px-4 w-3/5">
+        <fieldset class="mb-8 mt-4 flex justify-between">
+
+            <div>
+                <label for="lire">Lire l'histoire</label>
+                <input id="lire" value="Lire" name="action" type="radio">
+            </div>
+
+            <div>
+                <label for="contester">Contester le paragraphe</label>
+                <input id="contester" value="contester" name="action" type="radio">
+            </div>
+
+            <div>
+                <label for="ecrire">Écrire la suite</label>
+                <input id="ecrire" value="ecrire" name="action" type="radio">
+            </div>
+
+
+        </fieldset>
+
+
+        <input type="submit" value="Valider" class="bg-red-600 border-gray-900  border rounded-2xl p-2 text-gray-200">
+    </form>
+
+</body>
+
+</html>
